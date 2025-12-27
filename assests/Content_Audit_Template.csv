@@ -1,0 +1,6 @@
+Page URL,Page Type,Owner,Last Updated,Status,Priority,Issues,Action,Notes
+/home,Core,Content Ops,2025-01-10,Needs review,High,CTA unclear; outdated stats,Rewrite hero + update stats,Align to brand tone
+/products,Core,Marketing,2024-11-02,OK,Medium,Long paragraphs,Split into scannable sections,Add comparison table
+/blog/post-1,Blog,Editor,2023-07-19,Update needed,High,Old internal links; missing H2s,Fix links + add headings,Use AI QA checklist
+/pricing,Core,Product,2025-02-12,Needs review,High,Value props vague; missing FAQs,Rewrite copy + add FAQs,Test CTA label
+/contact,Core,Support,2024-06-03,OK,Low,Form labels inconsistent,Standardize labels,Accessibility pass
