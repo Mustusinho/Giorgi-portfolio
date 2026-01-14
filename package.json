@@ -1,6 +1,6 @@
 {
   "type": "module",
-  "name": "giorgi-portfolio-v2",
+  "name": "giorgi-portfolio",
   "version": "1.0.0",
   "private": true,
   "scripts": {

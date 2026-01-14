@@ -14,15 +14,13 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en" suppressHydrationWarning>
       <body className="min-h-screen bg-black text-white">
-        {/* Fixed FX background (no layout shifts) */}
-        <div className="fx-bg" />
-
-        {/* Updates CSS vars (--mx/--my) for spotlight */}
         <ClientFX />
-
         <Navbar />
-        <main>{children}</main>
+        {children}
         <Footer />
+
+        {/* ✅ gives a little scroll room after the last section/footer */}
+        <div aria-hidden className="h-16 md:h-24" />
       </body>
     </html>
   )
